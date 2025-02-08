@@ -7,14 +7,15 @@
         <slot />
     </main>
 
-    <Footer/>
+    <FsFooter />
 </template>
 
 <script setup>
-import Logobar from './logobar/Logobar.vue';
-import Footer from './footer/Footer.vue';
+import Logobar from '@/components/logobar/Logobar.vue';
+import FsFooter from "@/components/footer/FsFooter.vue";
 
 import { useStoryblok } from '@storyblok/vue';
+import Footer from "@/components/footer/FsFooter.vue";
 const story = await useStoryblok('config', { version: 'draft' });
 
 const logoBarItems = story.value.content.body[0];
