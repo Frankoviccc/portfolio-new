@@ -27,5 +27,5 @@ defineProps({
 </script>
 
 <style lang="scss">
-@use "Navigation";
+@use "fs-navigation";
 </style>

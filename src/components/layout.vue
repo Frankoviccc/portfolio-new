@@ -1,5 +1,5 @@
 <template>
-    <Logobar
+    <FsLogobar
         :items="logoBarItems"
     />
 
@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import Logobar from '@/components/logobar/Logobar.vue';
+import FsLogobar from '@/components/logobar/fs-logobar.vue';
 
 import { useStoryblok } from '@storyblok/vue';
 const story = await useStoryblok('config', { version: 'draft' });
