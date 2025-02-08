@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import FsLogobar from '@/components/logobar/fs-logobar.vue';
+import FsLogobar from './logobar/fs-logobar.vue';
 
 import { useStoryblok } from '@storyblok/vue';
 const story = await useStoryblok('config', { version: 'draft' });
