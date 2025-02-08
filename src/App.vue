@@ -1,15 +1,12 @@
-<script setup>
-import Home from './pages/Home.vue';
-</script>
-
 <template>
   <Suspense>
-    <template #default>
-      <Home />
-    </template>
-
-    <template #fallback>
-      <div>Loading...</div>
-    </template>
+        <layout>
+            <router-view></router-view>
+        </layout>
   </Suspense>
 </template>
+
+<script setup>
+import layout from './components/Layout.vue';
+</script>
+

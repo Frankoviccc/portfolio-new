@@ -1,0 +1,9 @@
+$identifier: 'navigation';
+$class: '.' + $identifier;
+
+#{$class} {
+    &-list {
+        display: flex;
+        gap: 5rem;
+    }
+}

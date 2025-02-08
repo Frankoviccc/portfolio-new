@@ -1,0 +1,52 @@
+$identifier: 'header';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        max-width: 1040px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+
+        &-media {
+            max-width: 60px;
+            max-height: 60px;
+        }
+
+        &-initials {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    &__title {
+        display: flex;
+        gap: 20px;
+
+        &-span {
+            border: 1px solid black;
+            transform: rotate3d(1, 1, 1, 11deg);
+        }
+
+        &-name {
+            font-size: 1.25rem;
+        }
+    }
+
+    &__navigation-list {
+        display: flex;
+        gap: 5rem;
+    }
+}
