@@ -38,6 +38,7 @@ $class: '.' + $identifier;
         &-list {
             display: none;
             list-style-type: none;
+            animation: fadeOut 1s ease;
         }
 
         &--open {

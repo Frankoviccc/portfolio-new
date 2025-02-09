@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Installed sass package">
-      <change afterPath="$PROJECT_DIR$/src/assets/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_typography.scss" afterDir="false" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feature.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grid.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Teaser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +102,7 @@
       <workItem from="1737625478687" duration="46446000" />
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
-      <workItem from="1739037445700" duration="22565000" />
+      <workItem from="1739037445700" duration="26024000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -226,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739028827873</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component">
+      <option name="closed" value="true" />
+      <created>1739069309484</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739069309484</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +273,7 @@
     <MESSAGE value="changed to kebab-case" />
     <MESSAGE value="fix build error" />
     <MESSAGE value="Installed sass package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed sass package" />
+    <MESSAGE value="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component" />
   </component>
 </project>
