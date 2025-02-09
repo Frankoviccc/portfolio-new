@@ -3,15 +3,24 @@
         class="header"
     >
         <div class="header__inner">
-            <div class="header__logo">
+            <div class="header__logo"
+                v-if="!items.logo.filename || items.initials"
+            >
                 <img
                     class="header__logo-media"
                     v-if="items.logo.filename"
                     :src="items.logo.filename"
                 >
-                <h2 class="header__logo-initials">{{ items.initials }}</h2>
+                <h2
+                    class="header__logo-initials"
+                    v-if="items.initials"
+                >
+                    {{ items.initials }}
+                </h2>
             </div>
-            <div class="header__title">
+            <div class="header__title"
+                v-if="items.name && items.surname"
+            >
                 <span class="header__title-span"></span>
                 <div class="header__title-name">
                     <p class="header__firstname">{{ items.name }}</p>
@@ -25,9 +34,9 @@
 </template>
 
 <script setup>
-import FsNavigation from "../navigation/fs-navigation.vue";
+import FsNavigation from "@/components/navigation/fs-navigation.vue";
 
-const props = defineProps({
+defineProps({
     items: {
         Object
     },

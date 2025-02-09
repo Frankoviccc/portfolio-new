@@ -7,9 +7,12 @@ import Projects from "@/pages/Projects.vue";
 import Blog from "@/pages/Blog.vue";
 import About from "@/pages/About.vue";
 import Contact from "@/pages/Contact.vue";
+import Page from "@/components/page.vue";
+import Hero from "@/components/hero/fs-hero.vue";
 
 const routes = [
   { path: '/', component: Home },
+  { path: '/home', redirect: '/' },
   { path: '/projects', component: Projects },
   { path: '/blog', component: Blog },
   { path: '/about', component: About },
@@ -22,6 +25,10 @@ const router = createRouter({
 })
 
 const app = createApp(App);
+
+app.component("page", Page);
+app.component("hero", Hero);
+
 app.use(router);
 app.use(StoryblokVue,{
   accessToken: 'xFSXR4U3SqvkfQrtkTNpqwtt',

@@ -10,3 +10,8 @@
 import layout from './components/layout.vue';
 </script>
 
+<style lang="scss">
+@use 'scss/reset';
+@use 'scss/typography';
+</style>
+

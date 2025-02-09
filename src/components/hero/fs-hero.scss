@@ -1,0 +1,100 @@
+$identifier: 'hero';
+$class: '.' + $identifier;
+
+#{$class} {
+    margin: 40px auto;
+    max-width: 1100px;
+
+    &__inner {
+        display: flex;
+        padding: 0 24px;
+        gap: 25px;
+        text-align: right;
+    }
+
+    &__column {
+        position: relative;
+        width: 50%;
+
+        &-header {
+            margin-top: 10px;
+        }
+
+        &-title {
+            font-size: 10rem;
+            line-height: 9rem;
+            font-weight: 900;
+            letter-spacing: 0.2rem;
+        }
+
+        &-subtitle {
+            max-width: 60%;
+            margin-left: auto;
+        }
+
+        &-image {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            max-height: 650px;
+            border-radius: 50px;
+        }
+
+        &-icon {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            z-index: 1;
+
+            img {
+                padding: 5px;
+                height: 65px;
+                max-width: 65px;
+                border-radius: 50%;
+                object-fit: contain;
+                object-position: center;
+                background: #eee;
+
+                &:last-of-type {
+                    background: black;
+                }
+            }
+
+            &:first-of-type {
+                right: 5px;
+                top: 5px;
+            }
+
+            &:last-of-type {
+                left: 0;
+                bottom: 5px;
+                background: #fff;
+            }
+
+            &--black img {
+                background: black;
+            }
+        }
+
+        &-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        &-counter {
+            display: flex;
+            flex-direction: column;
+
+            &-title {
+                font-size: 3rem;
+            }
+        }
+
+        &:first-of-type {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

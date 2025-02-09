@@ -7,8 +7,10 @@ $class: '.' + $identifier;
     width: 100%;
 
     &__inner {
+        position: relative;
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 3rem;
         max-width: 1040px;
         width: 100%;
@@ -16,8 +18,11 @@ $class: '.' + $identifier;
     }
 
     &__logo {
+        position: relative;
         display: flex;
         align-items: center;
+        margin-right: auto;
+        z-index: 99;
         gap: 0.75rem;
 
         &-media {
