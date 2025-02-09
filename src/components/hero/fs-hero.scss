@@ -65,7 +65,8 @@ $class: '.' + $identifier;
             position: absolute;
             display: flex;
             flex-direction: column;
-            gap: 22px;
+            justify-content: space-between;
+            width: 12%;
             z-index: 1;
 
             @media (width < 1092) {
@@ -74,8 +75,7 @@ $class: '.' + $identifier;
 
             img {
                 padding: 5px;
-                height: 65px;
-                max-width: 65px;
+                max-width: 100%;
                 border-radius: 50%;
                 object-fit: contain;
                 object-position: center;
@@ -99,13 +99,8 @@ $class: '.' + $identifier;
             &:last-of-type {
                 left: 0;
                 bottom: 5px;
+                height: 40%;
                 background: #fff;
-
-                @media (width < 1092px) {
-                    left: 0;
-                    bottom: 5px;
-                    gap: 35px;
-                }
             }
 
             &--black img {
