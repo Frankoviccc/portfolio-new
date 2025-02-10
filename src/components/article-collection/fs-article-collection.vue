@@ -2,7 +2,7 @@
     <section class="article-collection">
         <h2 class="article-collection__title">
             {{ blok.title }}
-            <span class="article-collection__span">
+            <span class="article-collection__span u-highlight">
                 {{ blok.span }}
             </span>
         </h2>
@@ -31,9 +31,6 @@ const props = defineProps({
 });
 
 const articles = props.blok.articles;
-
-console.log('123');
-console.log(articles);
 </script>
 
 <style lang="scss">

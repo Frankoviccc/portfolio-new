@@ -1,0 +1,11 @@
+$identifier: 'slide-collection';
+$class: '.' + $identifier;
+
+#{$class} {
+    &__title {
+        display: flex;
+        flex-direction: column;
+        font-size: 5rem;
+        line-height: 5rem
+    }
+}

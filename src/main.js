@@ -11,6 +11,8 @@ import Page from "@/components/page.vue";
 import Hero from "@/components/hero/fs-hero.vue";
 import ArticleCollection from "@/components/article-collection/fs-article-collection.vue";
 import ArticleItem from "@/components/article-item/fs-article-item.vue";
+import SlideCollection from "@/components/slide-collection/fs-slide-collection.vue";
+import Slide from "@/components/slide/fs-slide.vue";
 
 const routes = [
   { path: '/', component: Home },
@@ -32,6 +34,8 @@ app.component("page", Page);
 app.component("hero", Hero);
 app.component("article_collection", ArticleCollection);
 app.component("article_item", ArticleItem);
+app.component("slide_collection", SlideCollection);
+app.component("slide", Slide);
 
 app.use(router);
 app.use(StoryblokVue,{
