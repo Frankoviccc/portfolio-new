@@ -33,7 +33,15 @@
                     </div>
                 </div>
                 <div class="hero__column-articles">
-                    <hero-article :items="blok.articles" />
+                    <router-link
+                        v-for="(article, index) in articles"
+                        :to="article.link.cached_url"
+                    >
+                        <hero-article
+                            :title="article.title"
+                            :icons="icons[index]"
+                        />
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -43,6 +51,7 @@
 <script setup>
 import {onMounted, ref} from "vue";
 import HeroArticle from "@/components/hero/article/hero-article.vue";
+import { faFolder, faSquarePen } from "@fortawesome/free-solid-svg-icons";
 
 const props = defineProps({
     blok: {
@@ -50,6 +59,8 @@ const props = defineProps({
         required: true,
     }
 })
+
+const articles = props.blok.articles;
 
 const counters = ref({
     counter1: 0,
@@ -72,6 +83,11 @@ const animateCounter = (key, value) => {
         }
     }, 50);
 };
+
+const icons = [
+    faFolder,
+    faSquarePen
+];
 
 onMounted(() => {
     animateCounter("counter1", props.blok.counter_1_title);

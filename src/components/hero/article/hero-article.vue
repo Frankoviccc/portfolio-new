@@ -1,14 +1,13 @@
 <template>
     <article
         class="hero-article"
-        v-for="(item, index) in items"
     >
         <div class="hero-article__icon">
-            <FontAwesomeIcon :icon="icons[index]" />
+            <FontAwesomeIcon :icon="icons" />
         </div>
         <div class="hero-article__content">
             <h3 class="hero-article__text">
-                {{ item.title }}
+                {{ title }}
             </h3>
 
             <button class="hero-article__button">
@@ -22,19 +21,18 @@
 
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faAnglesRight, faFolder, faSquarePen } from "@fortawesome/free-solid-svg-icons";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 defineProps({
-    items: {
-        type: Object,
+    title: {
+        type: String,
         required: true,
     },
+    icons: {
+        type: Object,
+        required: true,
+    }
 })
-
-const icons = [
-    faFolder,
-    faSquarePen
-]
 </script>
 
 <style lang="scss">

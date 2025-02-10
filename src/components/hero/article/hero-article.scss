@@ -8,6 +8,7 @@ $class: '.' + $identifier;
     gap: 20px;
     padding: 20px;
     background: #eee;
+    transition: background .3s ease;
 
     &__content {
         display: flex;
@@ -26,6 +27,7 @@ $class: '.' + $identifier;
         margin-left: auto;
         padding: 5px;
         border-radius: 5px;
+        pointer-events: none;
 
          svg {
              font-size: 1rem;
@@ -38,5 +40,9 @@ $class: '.' + $identifier;
 
     &:last-child {
         flex: 2;
+    }
+
+    &:hover {
+        background: #ddd;
     }
 }
