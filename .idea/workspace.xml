@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Created menu styling">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Implemented responsive icons hero section">
+      <change afterPath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article-item/fs-article-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article-item/fs-article-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/fs-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/fs-card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hero/article/hero-article.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hero/article/hero-article.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/@storyblok_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/@storyblok_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/@storyblok_vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/@storyblok_vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/chunk-OBAGC4DG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/chunk-OBAGC4DG.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/fs-hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +81,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/footer" />
@@ -101,7 +124,7 @@
       <workItem from="1737625478687" duration="46446000" />
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
-      <workItem from="1739037445700" duration="27307000" />
+      <workItem from="1739037445700" duration="54607000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -223,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739073125754</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Implemented responsive icons hero section">
+      <option name="closed" value="true" />
+      <created>1739075694748</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739075694748</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +313,7 @@
     <MESSAGE value="Installed sass package" />
     <MESSAGE value="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component" />
     <MESSAGE value="Created menu styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created menu styling" />
+    <MESSAGE value="Implemented responsive icons hero section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented responsive icons hero section" />
   </component>
 </project>

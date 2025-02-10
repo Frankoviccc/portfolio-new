@@ -7,6 +7,11 @@
     "preview": "vite preview --port 3000"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@splidejs/vue-splide": "^0.6.12",
     "@storyblok/vue": "^6.0.0",
     "axios": "^0.26.0",
     "vue": "^3.2.26",

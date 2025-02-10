@@ -10,7 +10,7 @@ $class: '.' + $identifier;
 
     &__list {
         display: none;
-        gap: 5rem;
+        gap: 4rem;
         list-style-type: none;
 
         @media (width > 700px) {

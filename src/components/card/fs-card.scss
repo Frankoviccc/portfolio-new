@@ -1,0 +1,31 @@
+$identifier: 'card';
+$class: '.' + $identifier;
+
+#{$class} {
+    position: sticky;
+    top: 50px;
+    padding: 25px;
+    border-radius: 15px;
+    background: #eee;
+    text-align: center;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__image {
+        max-width: 100%;
+        border-radius: 15px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 25px;
+        font-size: 1.5rem;
+    }
+}

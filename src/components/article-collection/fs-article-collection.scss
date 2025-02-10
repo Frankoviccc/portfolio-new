@@ -1,0 +1,27 @@
+$identifier: 'article-collection';
+$class: '.' + $identifier;
+
+#{$class} {
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+
+        > article:nth-child(1) {
+            grid-column: 1 / -1;
+        }
+
+        > article:nth-child(2),
+        > article:nth-child(3) {
+            grid-column: span 1;
+        }
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        font-size: 5rem;
+        line-height: 5rem
+    }
+}

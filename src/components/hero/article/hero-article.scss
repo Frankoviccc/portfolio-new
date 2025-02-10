@@ -1,0 +1,42 @@
+$identifier: 'hero-article';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+    background: #eee;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+        height: 100%;
+    }
+
+    &__icon {
+        font-size: 1.75rem;
+    }
+
+    &__button {
+        width: fit-content;
+        margin-left: auto;
+        padding: 5px;
+        border-radius: 5px;
+
+         svg {
+             font-size: 1rem;
+         }
+    }
+
+    &:first-child {
+        flex: 1;
+    }
+
+    &:last-child {
+        flex: 2;
+    }
+}

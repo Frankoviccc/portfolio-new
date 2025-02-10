@@ -4,19 +4,19 @@
             <div class="hero__column">
                 <div class="hero__column-header">
                     <h1 class="hero__column-title">
-                        {{ blok.first_name }}
+                        {{ blok.title }}
+                        <span class="hero__column-span u-heading-1">
+                        {{ blok.span }}
+                        </span>
                     </h1>
-                    <h1 class="hero__column-title">
-                        {{ blok.surname }}
-                    </h1>
+                    <p class="hero__column-subtitle">
+                        {{ blok.text }}
+                    </p>
                 </div>
-                <p class="hero__column-subtitle">
-                    {{ blok.text }}
-                </p>
                 <div class="hero__column-container">
                     <div class="hero__column-counter">
                         <h2 class="hero__column-counter-title">
-                            {{ counters.counter1 }}
+                            {{ `+${counters.counter1}` }}
                         </h2>
                         <p class="hero__column-counter-subtitle">
                             {{ blok.counter_1_subtitle }}
@@ -25,40 +25,16 @@
 
                     <div class="hero__column-counter">
                         <h2 class="hero__column-counter-title">
-                            {{ counters.counter2 }}
+                            {{ `+${counters.counter2}` }}
                         </h2>
                         <p class="hero__column-counter-subtitle">
                             {{ blok.counter_2_subtitle }}
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="hero__column">
-                <div
-                    class="hero__column-icon hero__column-icon--black"
-                     v-if="blok.icons.length > 0"
-                >
-                    <img
-                        :src="blok.icons[0].filename"
-                        :alt="blok.icons[0].alt"
-                    >
+                <div class="hero__column-articles">
+                    <hero-article :items="blok.articles" />
                 </div>
-
-                <div class="hero__column-icon"
-                    v-if="blok.icons.length > 0"
-                >
-                    <img
-                        v-for="(icon) in blok.icons.slice(1)"
-                        :key="icon.id"
-                        :src="icon.filename"
-                        :alt="icon.alt"
-                    >
-                </div>
-                <img
-                    :src="blok.media.filename"
-                    :alt="blok.media.alt"
-                    class="hero__column-image"
-                >
             </div>
         </div>
     </section>
@@ -66,10 +42,12 @@
 
 <script setup>
 import {onMounted, ref} from "vue";
+import HeroArticle from "@/components/hero/article/hero-article.vue";
 
 const props = defineProps({
     blok: {
         type: Object,
+        required: true,
     }
 })
 

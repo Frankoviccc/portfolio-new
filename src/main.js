@@ -9,6 +9,8 @@ import About from "@/pages/About.vue";
 import Contact from "@/pages/Contact.vue";
 import Page from "@/components/page.vue";
 import Hero from "@/components/hero/fs-hero.vue";
+import ArticleCollection from "@/components/article-collection/fs-article-collection.vue";
+import ArticleItem from "@/components/article-item/fs-article-item.vue";
 
 const routes = [
   { path: '/', component: Home },
@@ -28,6 +30,8 @@ const app = createApp(App);
 
 app.component("page", Page);
 app.component("hero", Hero);
+app.component("article_collection", ArticleCollection);
+app.component("article_item", ArticleItem);
 
 app.use(router);
 app.use(StoryblokVue,{
