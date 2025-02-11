@@ -2,6 +2,9 @@ $identifier: 'article-collection';
 $class: '.' + $identifier;
 
 #{$class} {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
     &__container {
         display: grid;

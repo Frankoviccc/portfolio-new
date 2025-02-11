@@ -2,6 +2,10 @@ $identifier: 'slide-collection';
 $class: '.' + $identifier;
 
 #{$class} {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
     &__title {
         display: flex;
         flex-direction: column;

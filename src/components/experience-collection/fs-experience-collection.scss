@@ -1,0 +1,8 @@
+$identifier: 'experience-collection';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

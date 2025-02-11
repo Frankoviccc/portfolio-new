@@ -5,7 +5,7 @@
                 <div class="hero__column-header">
                     <h1 class="hero__column-title">
                         {{ blok.title }}
-                        <span class="hero__column-span u-heading-1">
+                        <span class="hero__column-span u-heading-1 u-highlight">
                         {{ blok.span }}
                         </span>
                     </h1>

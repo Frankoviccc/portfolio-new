@@ -1,0 +1,44 @@
+$identifier: 'message';
+$class: '.' + $identifier;
+
+#{$class} {
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &-header {
+            display: flex;
+            gap: 20px;
+        }
+
+        &-label {
+            width: 100%;
+
+            &-title {
+                margin-bottom: 3px;
+                font-size: .75rem;
+            }
+        }
+
+        &-input,
+        &-textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background: #eee;
+        }
+
+        &-textarea {
+            min-height: 100px;
+        }
+
+        &-button {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}

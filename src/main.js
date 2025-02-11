@@ -13,6 +13,10 @@ import ArticleCollection from "@/components/article-collection/fs-article-collec
 import ArticleItem from "@/components/article-item/fs-article-item.vue";
 import SlideCollection from "@/components/slide-collection/fs-slide-collection.vue";
 import Slide from "@/components/slide/fs-slide.vue";
+import ExperienceCollection from "@/components/experience-collection/fs-experience-collection.vue";
+import ExperienceItem from "@/components/experience-item/fs-experience-item.vue";
+import Collaborate from "@/components/collaborate/fs-collaborate.vue";
+import Message from "@/components/message/fs-message.vue";
 
 const routes = [
   { path: '/', component: Home },
@@ -36,6 +40,10 @@ app.component("article_collection", ArticleCollection);
 app.component("article_item", ArticleItem);
 app.component("slide_collection", SlideCollection);
 app.component("slide", Slide);
+app.component("experience_collection", ExperienceCollection);
+app.component("experience_item", ExperienceItem);
+app.component("collaborate", Collaborate);
+app.component("message", Message);
 
 app.use(router);
 app.use(StoryblokVue,{

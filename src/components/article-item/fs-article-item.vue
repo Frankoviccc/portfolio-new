@@ -1,8 +1,13 @@
 <template>
     <article class="article-item">
-        <router-link class="article-item__link" :to="link">
+        <router-link
+            class="article-item__link"
+            :to="link"
+        >
             <div class="article-item__inner">
-                <div :class="[fullWidth ? 'article-item__media--full-width' : 'article-item__media']">
+                <div
+                    :class="[fullWidth ? 'article-item__media--full-width' : 'article-item__media']"
+                >
                     <img
                         :src="media.filename"
                         :alt="media.alt"
@@ -10,11 +15,23 @@
                     />
                 </div>
                 <div class="article-item__text">
-                    <p class="article-item__title">
+                    <p
+                        v-if="title"
+                        class="article-item__title"
+                    >
                         {{ title}}
                     </p>
-                    <p class="article-item__subtitle">
+                    <p
+                        v-if="text"
+                        class="article-item__text"
+                    >
                         {{ text }}
+                    </p>
+                    <p
+                        v-if="subText"
+                        class="article-item__subtext"
+                    >
+                        {{ subText }}
                     </p>
                 </div>
                 <button
@@ -33,15 +50,19 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 const props = defineProps({
     media: {
         type: Object,
-        required: true
+        required: false
     },
     title: {
         type: String,
-        required: true
+        required: false
     },
     text: {
         type: String,
-        required: true
+        required: false
+    },
+    subText: {
+        type: String,
+        required: false
     },
     link: {
         type: String,
