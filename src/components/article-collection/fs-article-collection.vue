@@ -1,15 +1,13 @@
 <template>
     <div class="article-collection">
-        <div class="article-collection__container">
-            <FsArticleItem
-                v-for="article in articles"
-                :title="article.title"
-                :link="article.link.cached_url"
-                :text="article.text"
-                :media="article.media"
-                :full-width="article.full_width"
-            />
-        </div>
+        <FsArticleItem
+            v-for="article in articles"
+            :title="article.title"
+            :link="article.link.cached_url"
+            :text="article.text"
+            :media="article.media"
+            :full-width="article.full_width"
+        />
     </div>
 </template>
 
