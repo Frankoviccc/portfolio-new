@@ -1,12 +1,5 @@
 <template>
-    <section class="article-collection">
-        <h2 class="article-collection__title">
-            {{ blok.title }}
-            <span class="article-collection__span u-highlight">
-                {{ blok.span }}
-            </span>
-        </h2>
-
+    <div class="article-collection">
         <div class="article-collection__container">
             <FsArticleItem
                 v-for="article in articles"
@@ -17,7 +10,7 @@
                 :full-width="article.full_width"
             />
         </div>
-    </section>
+    </div>
 </template>
 
 <script setup>

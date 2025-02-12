@@ -1,0 +1,16 @@
+$identifier: 'form';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+
+    &__button {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+}

@@ -6,7 +6,7 @@
         >
             <img
                 class="experience-item__image"
-                :src="media"
+                :src="media.filename"
                 :alt="media.alt"
             >
         </div>

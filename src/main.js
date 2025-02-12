@@ -17,6 +17,9 @@ import ExperienceCollection from "@/components/experience-collection/fs-experien
 import ExperienceItem from "@/components/experience-item/fs-experience-item.vue";
 import Collaborate from "@/components/collaborate/fs-collaborate.vue";
 import Message from "@/components/message/fs-message.vue";
+import FormSection from "@/components/form-section/fs-form-section.vue";
+import FormInput from "@/components/form-input/fs-form-input.vue";
+import Row from "@/components/row/fs-row.vue";
 
 const routes = [
   { path: '/', component: Home },
@@ -44,6 +47,9 @@ app.component("experience_collection", ExperienceCollection);
 app.component("experience_item", ExperienceItem);
 app.component("collaborate", Collaborate);
 app.component("message", Message);
+app.component("form-section", FormSection);
+app.component("form-input", FormInput);
+app.component("row", Row);
 
 app.use(router);
 app.use(StoryblokVue,{

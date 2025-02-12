@@ -1,0 +1,29 @@
+$identifier: 'form-input';
+$class: '.' + $identifier;
+
+#{$class} {
+    flex: 1 1 0;
+
+    &--textarea {
+        flex: 1 1 100%;
+    }
+
+    &__input,
+    &__textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background: #eee;
+    }
+
+    &__title {
+        margin-bottom: 3px;
+        font-size: .75rem;
+    }
+
+    &__textarea {
+        min-height: 100px;
+        flex: 1 1 100%;
+    }
+}

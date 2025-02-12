@@ -35,19 +35,13 @@
                 </label>
             </div>
 
-            <button class="message__form-button">
-                {{ buttonLabel }}
-            </button>
+
         </form>
     </div>
 </template>
 
 <script setup>
 const props = defineProps({
-    blok: {
-        type: Object,
-        required: true
-    },
     nameLabel: {
         type: String,
         required: false,

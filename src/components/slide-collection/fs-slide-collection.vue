@@ -1,12 +1,5 @@
 <template>
-    <section class="slide-collection">
-        <h2 class="slide-collection__title">
-            {{ blok.title }}
-            <span class="slide-collection__span u-highlight">
-                {{ blok.span }}
-            </span>
-        </h2>
-
+    <div class="slide-collection">
         <div class="slide-collection__inner">
             <Splide :options="splideOptions" aria-label="My blog article images">
                 <SplideSlide
@@ -22,7 +15,7 @@
                 </SplideSlide>
             </Splide>
         </div>
-    </section>
+    </div>
 </template>
 
 <script setup>
@@ -49,8 +42,6 @@ const splideOptions = ref({
 </script>
 
 <style lang="scss">
-@use 'fs-slide-collection';
-
 .splide {
     overflow: hidden;
 }
