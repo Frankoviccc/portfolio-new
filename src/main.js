@@ -39,12 +39,12 @@ const app = createApp(App);
 
 app.component("page", Page);
 app.component("hero", Hero);
-app.component("article_collection", ArticleCollection);
-app.component("article_item", ArticleItem);
-app.component("slide_collection", SlideCollection);
+app.component("article-collection", ArticleCollection);
+app.component("article-item", ArticleItem);
+app.component("slide-collection", SlideCollection);
 app.component("slide", Slide);
-app.component("experience_collection", ExperienceCollection);
-app.component("experience_item", ExperienceItem);
+app.component("experience-collection", ExperienceCollection);
+app.component("experience-item", ExperienceItem);
 app.component("collaborate", Collaborate);
 app.component("message", Message);
 app.component("form-section", FormSection);

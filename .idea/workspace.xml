@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Collaborate, experience components and changed gap spacing">
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/fs-form-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/fs-form-input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-section/fs-form-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-section/fs-form-section.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/row/fs-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/row/fs-row.vue" afterDir="false" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Created a general row component to load in components, refactored email component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collaborate/fs-collaborate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collaborate/fs-collaborate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience-collection/fs-experience-collection.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience-collection/fs-experience-collection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience-collection/fs-experience-collection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/message/fs-message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/message/fs-message.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide-collection/fs-slide-collection.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide-collection/fs-slide-collection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide-collection/fs-slide-collection.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +103,7 @@
       <workItem from="1737625478687" duration="46446000" />
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
-      <workItem from="1739037445700" duration="99438000" />
+      <workItem from="1739037445700" duration="100069000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -279,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739314387140</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Created a general row component to load in components, refactored email component">
+      <option name="closed" value="true" />
+      <created>1739386423592</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386423592</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +337,8 @@
     <MESSAGE value="Added slide collection with splide slider" />
     <MESSAGE value="Refactored props hero-article and route linking" />
     <MESSAGE value="Collaborate, experience components and changed gap spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collaborate, experience components and changed gap spacing" />
+    <MESSAGE value="Created a general row component to load in components, refactored email component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a general row component to load in components, refactored email component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

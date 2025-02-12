@@ -23,6 +23,5 @@ const props = defineProps({
     }
 })
 
-
 const items = props.blok.items;
 </script>
