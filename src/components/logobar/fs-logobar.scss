@@ -9,8 +9,8 @@ $class: '.' + $identifier;
     &__inner {
         position: relative;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
         gap: 3rem;
         max-width: 900px;
         width: 100%;
@@ -25,9 +25,12 @@ $class: '.' + $identifier;
         position: relative;
         display: flex;
         align-items: center;
-        margin-right: auto;
         z-index: 99;
         gap: 0.75rem;
+
+        @media (width > 700px) {
+            margin-right: auto;
+        }
 
         &-media {
             max-width: 60px;
