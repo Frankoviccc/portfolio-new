@@ -1,5 +1,5 @@
 <template>
-    <div class="experience-item">
+    <li class="experience-item">
         <div
             v-if="media"
             class="experience-item__media"
@@ -31,7 +31,7 @@
                 {{ subText }}
             </p>
         </div>
-    </div>
+    </li>
 </template>
 
 <script setup>

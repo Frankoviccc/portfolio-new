@@ -33,11 +33,21 @@ const props = defineProps({
 const slides = props.blok.slides;
 
 const splideOptions = ref({
-    drag: 'free',
-    gap: '2rem',
+    gap: '1.25rem',
     perPage: 3,
+    perMove: 1,
+    focus: 'center',
+    drag: 'free',
     pagination: false,
     arrows: false,
+    breakpoints: {
+        500: {
+            perPage: 2,
+        },
+        375: {
+            perPage: 1,
+        }
+    }
 });
 </script>
 

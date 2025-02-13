@@ -1,6 +1,6 @@
 <template>
     <div class="experience-collection">
-        <div class="experience-collection__list">
+        <ul class="experience-collection__list">
             <ExperienceItem
                 v-for="item in items"
                 :key="item._uid"
@@ -9,7 +9,7 @@
                 :span="item.span"
                 :subText="item.subtitle"
             />
-        </div>
+        </ul>
     </div>
 </template>
 

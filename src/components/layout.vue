@@ -33,17 +33,29 @@ const footerItems = story.value.content.body[2];
 <style lang="scss">
 #wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     column-gap: 40px;
-    max-width: 1140px;
+    max-width: 900px;
     height: min-content;
     margin: 0 auto;
     padding: 0 24px;
+
+    @media (width > 1135px) {
+        display: grid;
+        max-width: 1140px;
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 .page {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    margin: 40px 0 0;
+    gap: 40px;
+
+    @media (width > 1135px) {
+        margin: 0;
+        gap: 40px;
+    }
 }
 </style>
