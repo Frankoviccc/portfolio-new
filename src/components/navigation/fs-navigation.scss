@@ -10,7 +10,7 @@ $class: '.' + $identifier;
 
     &__list {
         display: none;
-        gap: 4rem;
+        gap: 60px;
         list-style-type: none;
 
         @media (width > 700px) {
@@ -29,15 +29,13 @@ $class: '.' + $identifier;
             border: none;
             background: none;
 
-            &-open {
-                width: 50px;
-                height: 50px;
-            }
-
             &-close {
                 display: none;
-                width: 40px;
-                height: 40px;
+                margin-top: 4px;
+            }
+
+            svg {
+                font-size: 2rem;
             }
         }
 
