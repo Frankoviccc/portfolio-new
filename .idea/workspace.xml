@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Refactored logobar">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added functionality to close nav list after click to mobile navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,7 @@
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
       <workItem from="1739037445700" duration="116177000" />
-      <workItem from="1739488146729" duration="10983000" />
+      <workItem from="1739488146729" duration="12089000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -355,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739529521633</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added functionality to close nav list after click to mobile navigation">
+      <option name="closed" value="true" />
+      <created>1739533341869</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1739533341869</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +437,8 @@
     <MESSAGE value="Fix mobile navigation" />
     <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
     <MESSAGE value="Refactored logobar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored logobar" />
+    <MESSAGE value="Added functionality to close nav list after click to mobile navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to close nav list after click to mobile navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

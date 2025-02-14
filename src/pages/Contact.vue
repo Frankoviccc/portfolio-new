@@ -1,9 +1,11 @@
 <template>
-    <h1>Contact</h1>
-        <StoryblokComponent v-if="story" :blok="story.content" />
+    <StoryblokComponent
+        v-if="story"
+        :blok="story.content"
+    />
 </template>
 
 <script setup>
-import { useStoryblok } from '@storyblok/vue';
+import { useStoryblok, StoryblokComponent } from '@storyblok/vue';
 const story = await useStoryblok('contact', { version: 'draft' });
 </script>
