@@ -1,7 +1,8 @@
 <template>
     <section
+        ref="target"
         class="row"
-        :class="[`row--${modifier}`]"
+        :class="[`row--${modifier}`, {'fade-in-visible': isVisible, 'fade-in': true}]"
     >
         <h2 class="row__title">
             {{ blok.title }}
@@ -20,7 +21,8 @@
 </template>
 
 <script setup>
-import { resolveComponent } from "vue";
+import {resolveComponent, ref} from "vue";
+import {useIntersectionObserver} from '@vueuse/core';
 
 const props = defineProps({
     blok: {
@@ -30,6 +32,13 @@ const props = defineProps({
 })
 
 const modifier = props.blok.item[0].component;
+
+const isVisible = ref(false);
+const target = ref(null);
+
+useIntersectionObserver(target, ([{isIntersecting}]) => {
+    if (isIntersecting) isVisible.value = true;
+});
 </script>
 
 <style lang="scss">

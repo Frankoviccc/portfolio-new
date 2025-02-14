@@ -22,5 +22,14 @@ import layout from './components/layout.vue';
         min-height: 100vh;
     }
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in-visible {
+    opacity: 1;
+}
 </style>
 

@@ -1,5 +1,9 @@
 <template>
-    <section class="hero">
+    <section
+        ref="target"
+        class="hero"
+        :class="[{'fade-in-visible': isVisible, 'fade-in': true}]"
+    >
         <div class="hero__inner">
             <div class="hero__column">
                 <div class="hero__column-header">
@@ -52,6 +56,7 @@
 import {onMounted, ref} from "vue";
 import HeroArticle from "@/components/hero/article/hero-article.vue";
 import { faFolder, faSquarePen } from "@fortawesome/free-solid-svg-icons";
+import {useIntersectionObserver} from "@vueuse/core";
 
 const props = defineProps({
     blok: {
@@ -93,6 +98,13 @@ onMounted(() => {
     animateCounter("counter1", props.blok.counter_1_title);
     animateCounter("counter2", props.blok.counter_2_title);
 })
+
+const isVisible = ref(false);
+const target = ref(null);
+
+useIntersectionObserver(target, ([{isIntersecting}]) => {
+    if (isIntersecting) isVisible.value = true;
+});
 </script>
 
 <style lang="scss">
