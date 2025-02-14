@@ -44,6 +44,7 @@ const footerItems = story.value.content.body[2].menu_item;
         display: grid;
         max-width: 1140px;
         grid-template-columns: 1fr 2fr;
+        flex-grow: 1;
     }
 }
 

@@ -15,6 +15,7 @@
                 class="form-input__input"
                 :placeholder="placeholder"
                 :type="type"
+                :name="name"
             />
             <textarea
                 v-else

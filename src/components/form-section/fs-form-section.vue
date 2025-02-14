@@ -1,5 +1,9 @@
 <template>
-    <div class="form">
+    <form
+        class="form"
+        action="https://formspree.io/f/mwpvreno"
+        method="POST"
+    >
         <fs-form-input
             v-for="field in fields"
             :key="field._uid"
@@ -9,10 +13,13 @@
             :type="field.type"
         />
 
-        <button class="form__button">
+        <button
+            type="submit"
+            class="form__button"
+        >
             {{ blok.button_label }}
         </button>
-    </div>
+    </form>
 </template>
 
 <script setup>

@@ -14,5 +14,13 @@ import layout from './components/layout.vue';
 @use 'scss/reset';
 @use 'scss/typography';
 @use 'scss/variables';
+
+#app {
+    @media (width > 1135px) {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+}
 </style>
 
