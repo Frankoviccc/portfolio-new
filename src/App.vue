@@ -13,5 +13,6 @@ import layout from './components/layout.vue';
 <style lang="scss">
 @use 'scss/reset';
 @use 'scss/typography';
+@use 'scss/variables';
 </style>
 

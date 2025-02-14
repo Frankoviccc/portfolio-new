@@ -30,5 +30,11 @@ $class: '.' + $identifier;
             flex-direction: row;
             gap: 60px;
         }
+
+        &-item-link {
+            color: black;
+            text-decoration: none;
+
+        }
     }
 }
