@@ -42,6 +42,7 @@
                     class="navigation__mobile-list-item"
                     v-for="item in navItems"
                     :key="item.id"
+                    @click="toggleNavigation"
                 >
                     <router-link
                         :to="item.link.cached_url"

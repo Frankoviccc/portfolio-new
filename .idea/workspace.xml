@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Swapped svg icons for fontawesome component due rendering on iOS">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Refactored logobar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
     </list>
@@ -104,7 +105,7 @@
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
       <workItem from="1739037445700" duration="116177000" />
-      <workItem from="1739488146729" duration="8968000" />
+      <workItem from="1739488146729" duration="10983000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739528677859</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Refactored logobar">
+      <option name="closed" value="true" />
+      <created>1739529521633</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739529521633</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +426,8 @@
     <MESSAGE value="fix hamburger menu mobile" />
     <MESSAGE value="Fix mobile navigation" />
     <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swapped svg icons for fontawesome component due rendering on iOS" />
+    <MESSAGE value="Refactored logobar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored logobar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
