@@ -10,7 +10,25 @@ $class: '.' + $identifier;
         display: flex;
         justify-content: center;
         max-width: 900px;
-        padding: 60px 24px;
+        padding: 40px 24px;
         margin: 0 auto;
+
+        @media (width > 550px) {
+            padding: 60px 24px;
+        }
+    }
+
+    &-navigation__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        list-style: none;
+
+
+        @media (width > 550px) {
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+        }
     }
 }

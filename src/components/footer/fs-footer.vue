@@ -1,15 +1,15 @@
 <template>
     <footer class="footer">
         <div class="footer__inner">
-            <ul class="navigation__list">
+            <ul class="footer-navigation__list">
                 <li
-                    class="navigation__list-item"
+                    class="footer-navigation__list-item"
                     v-for="item in footerItems"
                     :key="item.id"
                 >
                     <router-link
                         :to="item.link.cached_url"
-                        class="navigation__list-item-link"
+                        class="footer-navigation__list-item-link"
                     >
                         {{ item.text }}
                     </router-link>
