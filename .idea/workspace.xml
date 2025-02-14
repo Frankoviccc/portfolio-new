@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="fix hamburger menu mobile">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Fix mobile navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/row/fs-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/fs-row.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
       <workItem from="1739037445700" duration="116177000" />
-      <workItem from="1739488146729" duration="3446000" />
+      <workItem from="1739488146729" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -308,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739488729539</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix mobile navigation">
+      <option name="closed" value="true" />
+      <created>1739521583276</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739521583277</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +382,8 @@
     <MESSAGE value="Refactored article collection" />
     <MESSAGE value="implemented mobile styling home page" />
     <MESSAGE value="fix hamburger menu mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix hamburger menu mobile" />
+    <MESSAGE value="Fix mobile navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix mobile navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

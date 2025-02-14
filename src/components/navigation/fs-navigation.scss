@@ -21,8 +21,7 @@ $class: '.' + $identifier;
     &__mobile {
         display: none;
 
-
-        @media (width <= 700px) {
+        @media (max-width: 700px) {
             display: flex;
         }
 
