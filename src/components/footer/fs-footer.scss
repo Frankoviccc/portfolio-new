@@ -19,15 +19,21 @@ $class: '.' + $identifier;
     }
 
     &-navigation__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 500px;
+        width: 100%;
+        gap: 15px;
         list-style: none;
+
+        @media (width: 375px) {
+            justify-content: space-between;
+        }
 
 
         @media (width > 550px) {
-            display: flex;
-            flex-direction: row;
             gap: 60px;
         }
 
