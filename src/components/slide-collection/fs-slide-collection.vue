@@ -34,7 +34,7 @@ const slides = props.blok.slides;
 
 const splideOptions = ref({
     gap: '1.25rem',
-    perPage: 3,
+    perPage: 2.5,
     perMove: 1,
     focus: 'center',
     drag: 'free',
@@ -42,10 +42,10 @@ const splideOptions = ref({
     arrows: false,
     breakpoints: {
         500: {
-            perPage: 2,
+            perPage: 2.2,
         },
         375: {
-            perPage: 1,
+            perPage: 1.5,
         }
     }
 });
@@ -67,6 +67,5 @@ const splideOptions = ref({
 
 .splide__slide {
     flex: 0 0 auto;
-    width: calc(100% / 3);
 }
 </style>

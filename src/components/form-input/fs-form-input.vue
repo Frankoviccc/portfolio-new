@@ -21,6 +21,7 @@
                 v-else
                 class="form-input__textarea"
                 :placeholder="placeholder"
+                :name="name"
             ></textarea>
         </label>
     </div>
