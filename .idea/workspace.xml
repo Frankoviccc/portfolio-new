@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Fix mobile navigation">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Swapped svg icons for fontawesome component due rendering on iOS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
@@ -104,7 +104,7 @@
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
       <workItem from="1739037445700" duration="116177000" />
-      <workItem from="1739488146729" duration="8100000" />
+      <workItem from="1739488146729" duration="8968000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -338,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739526213393</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Swapped svg icons for fontawesome component due rendering on iOS">
+      <option name="closed" value="true" />
+      <created>1739528677859</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739528677859</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +416,8 @@
     <MESSAGE value="implemented mobile styling home page" />
     <MESSAGE value="fix hamburger menu mobile" />
     <MESSAGE value="Fix mobile navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix mobile navigation" />
+    <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swapped svg icons for fontawesome component due rendering on iOS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

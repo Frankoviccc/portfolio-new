@@ -14,43 +14,43 @@
                 </router-link>
             </li>
         </ul>
+    </nav>
 
-        <div :class="{
+    <nav :class="{
             'navigation__mobile': true,
             'navigation__mobile--open': navigationIsOpen
              }"
-        >
-            <div class="navigation__mobile-inner">
-                <button
-                    class="navigation__mobile-button"
-                    @click="toggleNavigation"
+    >
+        <div class="navigation__mobile-inner">
+            <button
+                class="navigation__mobile-button"
+                @click="toggleNavigation"
+            >
+                <font-awesome-icon
+                    :icon="faBars"
+                    class="navigation__mobile-button-open"
+                />
+
+                <font-awesome-icon
+                    class="navigation__mobile-button-close"
+                    :icon="faXmark"
+                />
+            </button>
+
+            <ul class="navigation__mobile-list">
+                <li
+                    class="navigation__mobile-list-item"
+                    v-for="item in navItems"
+                    :key="item.id"
                 >
-                    <font-awesome-icon
-                        :icon="faBars"
-                        class="navigation__mobile-button-open"
-                    />
-
-                    <font-awesome-icon
-                        class="navigation__mobile-button-close"
-                        :icon="faXmark"
-                    />
-                </button>
-
-                <ul class="navigation__mobile-list">
-                    <li
-                        class="navigation__mobile-list-item"
-                        v-for="item in navItems"
-                        :key="item.id"
+                    <router-link
+                        :to="item.link.cached_url"
+                        class="navigation__mobile-list-item-link"
                     >
-                        <router-link
-                            :to="item.link.cached_url"
-                            class="navigation__mobile-list-item-link"
-                        >
-                            {{ item.text }}
-                        </router-link>
-                    </li>
-                </ul>
-            </div>
+                        {{ item.text }}
+                    </router-link>
+                </li>
+            </ul>
         </div>
     </nav>
 </template>
