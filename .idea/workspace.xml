@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added functionality to close nav list after click to mobile navigation">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Activated the rest of the routing pages">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,7 @@
       <workItem from="1739010490836" duration="4815000" />
       <workItem from="1739015581309" duration="13584000" />
       <workItem from="1739037445700" duration="116177000" />
-      <workItem from="1739488146729" duration="12089000" />
+      <workItem from="1739488146729" duration="13375000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -365,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739533341869</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Activated the rest of the routing pages">
+      <option name="closed" value="true" />
+      <created>1739534407364</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1739534407364</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Storyblok install" />
     <MESSAGE value="Update" />
     <MESSAGE value="Test" />
     <MESSAGE value="Routing, install package" />
@@ -438,7 +443,8 @@
     <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
     <MESSAGE value="Refactored logobar" />
     <MESSAGE value="Added functionality to close nav list after click to mobile navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to close nav list after click to mobile navigation" />
+    <MESSAGE value="Activated the rest of the routing pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activated the rest of the routing pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

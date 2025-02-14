@@ -1,0 +1,16 @@
+$identifier: 'footer';
+$class: '.' + $identifier;
+
+#{$class} {
+    position: relative;
+    margin-top: 50px;
+    background: #eee;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        max-width: 900px;
+        padding: 60px 24px;
+        margin: 0 auto;
+    }
+}

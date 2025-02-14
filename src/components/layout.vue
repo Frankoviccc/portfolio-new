@@ -13,7 +13,7 @@
     </div>
 
     <FsFooter
-        :items="footerItems"
+        :footer-items="footerItems"
     />
 </template>
 
@@ -27,7 +27,7 @@ const story = await useStoryblok('config', { version: 'draft' });
 
 const logoBarItems = story.value.content.body[0];
 const cardItems = story.value.content.body[1];
-const footerItems = story.value.content.body[2];
+const footerItems = story.value.content.body[2].menu_item;
 </script>
 
 <style lang="scss">
