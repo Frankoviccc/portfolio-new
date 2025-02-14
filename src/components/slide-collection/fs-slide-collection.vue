@@ -56,6 +56,10 @@ const splideOptions = ref({
     overflow: hidden;
 }
 
+.splide__sr {
+    display: none;
+}
+
 .splide__list {
     display: flex;
     list-style-type: none;

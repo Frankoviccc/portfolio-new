@@ -14,10 +14,22 @@
             </p>
 
             <div class="card__icons">
-                <font-awesome-icon :icon="faHtml5"/>
-                <font-awesome-icon :icon="faCss"/>
-                <font-awesome-icon :icon="faJs"/>
-                <font-awesome-icon :icon="faVuejs"/>
+                <font-awesome-icon
+                    :icon="faHtml5"
+                    style="color: #E34F26"
+                />
+                <font-awesome-icon
+                    :icon="faSass"
+                    style="color: #CD6799"
+                />
+                <font-awesome-icon
+                    :icon="faJs"
+                    style="color: #F0DB4F"
+                />
+                <font-awesome-icon
+                    :icon="faVuejs"
+                    style="color: #42b883"
+                />
             </div>
         </div>
     </section>
@@ -25,7 +37,7 @@
 
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHtml5, faCss, faJs, faVuejs } from '@fortawesome/free-brands-svg-icons'
+import {faHtml5, faJs, faVuejs, faSass} from '@fortawesome/free-brands-svg-icons'
 
 defineProps({
     items: {
