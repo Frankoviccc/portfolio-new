@@ -7,7 +7,7 @@
                 :key="item.id"
             >
                 <router-link
-                    :to="item.link.cached_url"
+                    :to="'/' + item.link.cached_url"
                     class="navigation__list-item-link"
                 >
                     {{ item.text }}
@@ -61,7 +61,7 @@ import { ref } from "vue";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
 
-defineProps({
+const props = defineProps({
     navItems: {
         type: Object,
         required: true

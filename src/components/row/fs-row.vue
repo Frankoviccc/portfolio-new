@@ -4,9 +4,15 @@
         class="row"
         :class="[`row--${modifier}`, {'fade-in-visible': isVisible, 'fade-in': true}]"
     >
-        <h2 class="row__title">
+        <h2
+            v-if="blok.title"
+            class="row__title"
+        >
             {{ blok.title }}
-            <span class="row__span u-highlight">
+            <span
+                v-if="blok.span"
+                class="row__span u-highlight"
+            >
                 {{ blok.span }}
             </span>
         </h2>

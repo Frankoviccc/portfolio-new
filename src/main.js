@@ -20,11 +20,13 @@ import Message from "@/components/message/fs-message.vue";
 import FormSection from "@/components/form-section/fs-form-section.vue";
 import FormInput from "@/components/form-input/fs-form-input.vue";
 import Row from "@/components/row/fs-row.vue";
+import Content from "@/components/content/fs-content.vue";
 
 const routes = [
   { path: '/', component: Home },
   { path: '/home', redirect: '/' },
   { path: '/projects', component: Projects },
+  { path: '/projects/:slug', component: Content },
   { path: '/blog', component: Blog },
   { path: '/about', component: About },
   { path: '/contact', component: Contact }
@@ -50,6 +52,7 @@ app.component("message", Message);
 app.component("form-section", FormSection);
 app.component("form-input", FormInput);
 app.component("row", Row);
+app.component("content", Content);
 
 app.use(router);
 app.use(StoryblokVue,{

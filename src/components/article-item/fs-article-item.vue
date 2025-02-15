@@ -2,13 +2,15 @@
     <article class="article-item">
         <router-link
             class="article-item__link"
-            :to="link"
+            v-if="link"
+            :to="'/' + link"
         >
             <div class="article-item__inner">
                 <div
                     :class="[fullWidth ? 'article-item__media--full-width' : 'article-item__media']"
                 >
                     <img
+                        v-if="media"
                         :src="media.filename"
                         :alt="media.alt"
                         class="article-item__image"
@@ -44,7 +46,7 @@
 </template>
 
 <script setup>
-import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const props = defineProps({
@@ -66,7 +68,7 @@ const props = defineProps({
     },
     link: {
         type: String,
-        required: true
+        required: false
     },
     fullWidth: {
         type: Boolean,

@@ -2,10 +2,12 @@
     <div class="article-collection">
         <FsArticleItem
             v-for="article in articles"
+            v-if="articles.length"
+            :key="article.id"
             :title="article.title"
-            :link="article.link.cached_url"
+            :link="article.link?.cached_url || ''"
             :text="article.text"
-            :media="article.media"
+            :media="article.media || {}"
             :full-width="article.full_width"
         />
     </div>

@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added transitions on scroll to row components" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Deleted accidentally committed node_modules">
+      <change afterPath="$PROJECT_DIR$/src/components/content/fs-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content/fs-content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-collection/fs-article-collection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article-item/fs-article-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-item/fs-article-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/fs-card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/fs-card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/row/fs-row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/fs-row.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +113,7 @@
       <workItem from="1739037445700" duration="116177000" />
       <workItem from="1739488146729" duration="17885000" />
       <workItem from="1739541207054" duration="5266000" />
-      <workItem from="1739551074182" duration="5756000" />
+      <workItem from="1739551074182" duration="35610000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -432,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739558998347</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Deleted accidentally committed node_modules">
+      <option name="closed" value="true" />
+      <created>1739559560297</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1739559560297</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored logobar, finalized correct routing, added scss reset and typo files and added hero component" />
     <MESSAGE value="Created menu styling" />
     <MESSAGE value="Implemented responsive icons hero section" />
     <MESSAGE value="Refactored hero section and added card and article-collection components" />
@@ -505,7 +523,8 @@
     <MESSAGE value="Implemented box-shadow to containers" />
     <MESSAGE value="Styled fontawesome icons and added animation to navigation links" />
     <MESSAGE value="Added transitions on scroll to row components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added transitions on scroll to row components" />
+    <MESSAGE value="Deleted accidentally committed node_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted accidentally committed node_modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

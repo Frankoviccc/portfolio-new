@@ -57,7 +57,7 @@ const target = ref(null);
 
 useIntersectionObserver(target, ([{isIntersecting}]) => {
     if (isIntersecting) isVisible.value = true;
-});
+}, { threshold: .5 });
 </script>
 
 <style lang="scss">
