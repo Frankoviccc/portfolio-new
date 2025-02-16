@@ -7,7 +7,7 @@
                 :key="item.id"
             >
                 <router-link
-                    :to="'/' + item.link.cached_url"
+                    :to="`/${item.link.cached_url.replace(/^\/+/, '')}`"
                     class="navigation__list-item-link"
                 >
                     {{ item.text }}
@@ -45,7 +45,7 @@
                     @click="toggleNavigation"
                 >
                     <router-link
-                        :to="item.link.cached_url"
+                        :to="`/${item.link.cached_url.replace(/^\/+/, '')}`"
                         class="navigation__mobile-list-item-link"
                     >
                         {{ item.text }}

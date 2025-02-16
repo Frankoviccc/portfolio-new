@@ -26,7 +26,7 @@
 <script setup>
 import {ref, watchEffect} from "vue";
 import { useRoute } from "vue-router";
-import { useStoryblokApi } from '@storyblok/vue';
+import {useStoryblok, useStoryblokApi} from '@storyblok/vue';
 
 const route = useRoute();
 const content = ref(null);
@@ -38,8 +38,6 @@ const fetchCurrentStory = async () => {
     });
 
     content.value = data.story.content.body[0];
-
-    console.log(content.value);
 }
 
 watchEffect(fetchCurrentStory);

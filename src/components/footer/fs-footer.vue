@@ -8,7 +8,7 @@
                     :key="item.id"
                 >
                     <router-link
-                        :to="item.link.cached_url"
+                        :to="`/${item.link.cached_url.replace(/^\/+/, '')}`"
                         class="footer-navigation__list-item-link"
                     >
                         {{ item.text }}

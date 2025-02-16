@@ -13,7 +13,7 @@
     </div>
 
     <FsFooter
-        :footer-items="footerItems"
+        :footer-items="footerItems.menu_item"
     />
 </template>
 
@@ -25,9 +25,10 @@ import FsCard from "@/components/card/fs-card.vue";
 
 const story = await useStoryblok('config', { version: 'draft' });
 
+
 const logoBarItems = story.value.content.body[0];
 const cardItems = story.value.content.body[1];
-const footerItems = story.value.content.body[2].menu_item;
+const footerItems = story.value.content.body[2];
 </script>
 
 <style lang="scss">

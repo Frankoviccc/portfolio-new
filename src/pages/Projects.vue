@@ -28,7 +28,10 @@ const story = await useStoryblok('projects', { version: 'draft' });
     .article-item__text {
         justify-content: flex-start;
         gap: 10px;
-        padding-right: 50px;
+
+        @media (width > 600px) {
+            padding-right: 50px;
+        }
     }
 }
 </style>
