@@ -1,0 +1,22 @@
+$identifier: 'content__header';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    &-media {
+        display: flex;
+        max-width: 100%;
+    }
+
+    &-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+}

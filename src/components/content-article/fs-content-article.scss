@@ -1,0 +1,28 @@
+$identifier: 'content__article';
+$class: '.' + $identifier;
+
+#{$class} {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-size: 1.3rem;
+    }
+
+    &-media {
+        display: flex;
+    }
+
+    &-image {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 15px;
+        object-fit: cover;
+        object-position: center;
+    }
+}

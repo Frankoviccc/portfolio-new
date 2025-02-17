@@ -68,6 +68,8 @@ const props = defineProps({
     },
 })
 
+console.log(props.navItems);
+
 const navigationIsOpen = ref(false);
 
 const toggleNavigation = () => {

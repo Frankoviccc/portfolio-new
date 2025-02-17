@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Fixed routing for subpages">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Fixed routing and added content component">
+      <change afterPath="$PROJECT_DIR$/src/components/content-article/fs-content-article.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content-article/fs-content-article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content-header/fs-content-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content-header/fs-content.header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Content.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/fs-content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/fs-content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/fs-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/fs-content.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +115,7 @@
       <workItem from="1739037445700" duration="116177000" />
       <workItem from="1739488146729" duration="17885000" />
       <workItem from="1739541207054" duration="5266000" />
-      <workItem from="1739551074182" duration="43945000" />
+      <workItem from="1739551074182" duration="71099000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -455,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739661288969</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Fixed routing and added content component">
+      <option name="closed" value="true" />
+      <created>1739732601365</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1739732601365</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented responsive icons hero section" />
     <MESSAGE value="Refactored hero section and added card and article-collection components" />
     <MESSAGE value="Added slide collection with splide slider" />
     <MESSAGE value="Refactored props hero-article and route linking" />
@@ -528,7 +541,8 @@
     <MESSAGE value="Added transitions on scroll to row components" />
     <MESSAGE value="Deleted accidentally committed node_modules" />
     <MESSAGE value="Fixed routing for subpages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed routing for subpages" />
+    <MESSAGE value="Fixed routing and added content component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed routing and added content component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
