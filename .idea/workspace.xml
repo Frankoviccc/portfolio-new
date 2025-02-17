@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added content page type and content articles">
-      <change afterPath="$PROJECT_DIR$/_redirects" afterDir="false" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="add redirect file to fix issue with slugs">
+      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_redirects" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +60,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/footer" />
-      <recent name="$PROJECT_DIR$/src/components/logobar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -106,7 +107,7 @@
       <workItem from="1739488146729" duration="17885000" />
       <workItem from="1739541207054" duration="5266000" />
       <workItem from="1739551074182" duration="71862000" />
-      <workItem from="1739830621138" duration="336000" />
+      <workItem from="1739830621138" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -468,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739829525721</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add redirect file to fix issue with slugs">
+      <option name="closed" value="true" />
+      <created>1739830986245</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1739830986245</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added slide collection with splide slider" />
     <MESSAGE value="Refactored props hero-article and route linking" />
     <MESSAGE value="Collaborate, experience components and changed gap spacing" />
     <MESSAGE value="Created a general row component to load in components, refactored email component" />
@@ -541,7 +549,8 @@
     <MESSAGE value="Fixed routing for subpages" />
     <MESSAGE value="Fixed routing and added content component" />
     <MESSAGE value="Added content page type and content articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added content page type and content articles" />
+    <MESSAGE value="add redirect file to fix issue with slugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redirect file to fix issue with slugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
