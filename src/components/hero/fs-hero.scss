@@ -71,11 +71,17 @@ $class: '.' + $identifier;
             max-width: 130px;
 
             &-title {
+                display: flex;
                 font-size: 2.5rem;
 
                 @media (width > 400px) {
                     font-size: 3rem;
                 }
+            }
+
+            &-prefix {
+                color: var(--cyan-blue);
+                margin-right: 5px;
             }
         }
 

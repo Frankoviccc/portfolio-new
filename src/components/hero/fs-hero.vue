@@ -20,7 +20,10 @@
                 <div class="hero__column-container">
                     <div class="hero__column-counter">
                         <h2 class="hero__column-counter-title">
-                            {{ `+${counters.counter1}` }}
+                            <span class="hero__column-counter-prefix">
+                                +
+                            </span>
+                            {{ `${counters.counter1}` }}
                         </h2>
                         <p class="hero__column-counter-subtitle">
                             {{ blok.counter_1_subtitle }}
@@ -29,7 +32,10 @@
 
                     <div class="hero__column-counter">
                         <h2 class="hero__column-counter-title">
-                            {{ `+${counters.counter2}` }}
+                            <span class="hero__column-counter-prefix">
+                                +
+                            </span>
+                            {{ `${counters.counter2}` }}
                         </h2>
                         <p class="hero__column-counter-subtitle">
                             {{ blok.counter_2_subtitle }}
