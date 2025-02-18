@@ -13,7 +13,7 @@ import layout from './components/layout.vue';
 <style lang="scss">
 @use 'scss/reset';
 @use 'scss/typography';
-@use 'scss/variables';
+@use 'scss/variables/colors';
 
 #app {
     @media (width > 1135px) {

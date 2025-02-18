@@ -14,8 +14,15 @@ $class: '.' + $identifier;
         padding: 10px;
         border-radius: 10px;
         border: none;
-        background: #eee;
+        resize: none;
+        background: var(--light-gray);
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+        &:focus {
+            outline: none;
+            border: 1px solid var(--cyan-blue);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
     }
 
     &__title {

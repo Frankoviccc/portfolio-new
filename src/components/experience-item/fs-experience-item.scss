@@ -5,7 +5,7 @@ $class: '.' + $identifier;
     display: flex;
     padding: 25px 0;
     gap: 20px;
-    border-bottom: 1px solid #bebebe;
+    border-bottom: 2px solid var(--dark-gray);
 
     &:first-of-type {
         padding-top: 10px;

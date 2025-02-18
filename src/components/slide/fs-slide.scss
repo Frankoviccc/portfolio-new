@@ -2,6 +2,12 @@ $identifier: 'slide';
 $class: '.' + $identifier;
 
 #{$class} {
+    transition: all .3s ease;
+
+    &:hover {
+        transform: translateY(2px);
+    }
+
     &__inner {
         position: relative;
         display: flex;

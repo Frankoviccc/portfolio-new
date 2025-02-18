@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="add redirect file to fix issue with slugs">
-      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Moved redirects file to public folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_redirects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/article-item/fs-article-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-item/fs-article-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/fs-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/fs-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/fs-card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/fs-card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience-item/fs-experience-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/fs-form-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input/fs-form-input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-section/fs-form-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-section/fs-form-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/article/hero-article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/article/hero-article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/message/fs-message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/message/fs-message.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide/fs-slide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide/fs-slide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +70,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/variables" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/components/footer" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -107,7 +117,8 @@
       <workItem from="1739488146729" duration="17885000" />
       <workItem from="1739541207054" duration="5266000" />
       <workItem from="1739551074182" duration="71862000" />
-      <workItem from="1739830621138" duration="1130000" />
+      <workItem from="1739830621138" duration="2018000" />
+      <workItem from="1739866225556" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="Storyblok install">
       <option name="closed" value="true" />
@@ -477,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739830986245</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Moved redirects file to public folder">
+      <option name="closed" value="true" />
+      <created>1739831835385</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1739831835385</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored props hero-article and route linking" />
     <MESSAGE value="Collaborate, experience components and changed gap spacing" />
     <MESSAGE value="Created a general row component to load in components, refactored email component" />
     <MESSAGE value="Refactored component naming to general way" />
@@ -550,7 +568,8 @@
     <MESSAGE value="Fixed routing and added content component" />
     <MESSAGE value="Added content page type and content articles" />
     <MESSAGE value="add redirect file to fix issue with slugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redirect file to fix issue with slugs" />
+    <MESSAGE value="Moved redirects file to public folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved redirects file to public folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

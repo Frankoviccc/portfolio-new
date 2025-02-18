@@ -10,29 +10,32 @@
                 :alt="items.alt"
                 class="card__image"
             >
-            <h2 class="card__title">
-                {{ items.title }}
-            </h2>
-            <p class="card__text">
-                {{ items.text }}
-            </p>
+            <div class="card__text">
+                <h2 class="card__title">
+                    {{ items.title }}
+                </h2>
+                <p class="card__subtitle">
+                    {{ items.text }}
+                </p>
+            </div>
+
 
             <div class="card__icons">
                 <font-awesome-icon
                     :icon="faHtml5"
-                    style="color: #E34F26"
+                    style="color: #FFAFCC"
                 />
                 <font-awesome-icon
                     :icon="faSass"
-                    style="color: #CD6799"
+                    style="color: #FFAFCC"
                 />
                 <font-awesome-icon
                     :icon="faJs"
-                    style="color: #F0DB4F"
+                    style="color: #FFAFCC"
                 />
                 <font-awesome-icon
                     :icon="faVuejs"
-                    style="color: #42b883"
+                    style="color: #FFAFCC"
                 />
             </div>
         </div>
