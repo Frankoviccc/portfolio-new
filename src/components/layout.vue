@@ -54,6 +54,7 @@ const footerItems = story.value.content.body[2];
     flex-direction: column;
     margin: 40px 0 0;
     gap: 40px;
+    min-height: 100vh;
 
     @media (width > 1135px) {
         margin: 0;

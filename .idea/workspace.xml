@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Refactored hero counter">
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added favicon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +109,8 @@
       <workItem from="1739830621138" duration="2018000" />
       <workItem from="1739866225556" duration="4241000" />
       <workItem from="1739870995719" duration="502000" />
-      <workItem from="1739871578077" duration="129000" />
-    </task>
-    <task id="LOCAL-00001" summary="Storyblok install">
-      <option name="closed" value="true" />
-      <created>1737546026912</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1737546026912</updated>
+      <workItem from="1739871578077" duration="158000" />
+      <workItem from="1739874504273" duration="685000" />
     </task>
     <task id="LOCAL-00002" summary="Update">
       <option name="closed" value="true" />
@@ -504,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739871487862</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added favicon">
+      <option name="closed" value="true" />
+      <created>1739871730405</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871730406</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored component naming to general way" />
     <MESSAGE value="Refactored article collection" />
     <MESSAGE value="implemented mobile styling home page" />
     <MESSAGE value="fix hamburger menu mobile" />
@@ -577,7 +576,8 @@
     <MESSAGE value="Moved redirects file to public folder" />
     <MESSAGE value="implemented scss variables and refactored styling here and there" />
     <MESSAGE value="Refactored hero counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored hero counter" />
+    <MESSAGE value="Added favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added favicon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
