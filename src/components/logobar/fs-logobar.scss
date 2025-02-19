@@ -41,6 +41,16 @@ $class: '.' + $identifier;
             font-size: 2rem;
             font-weight: bold;
         }
+
+        &-linkedin {
+            display: none;
+            text-decoration: none;
+            color: black;
+
+            @media (width > 700px) {
+                display: block;
+            }
+        }
     }
 
     &__title {

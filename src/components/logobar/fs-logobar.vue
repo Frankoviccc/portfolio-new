@@ -29,18 +29,43 @@
             </div>
 
             <FsNavigation :nav-items="items.menu_item"/>
+
+            <a
+                href="www.linkedin.com/in/frank-struik-958258203"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="header__logo-linkedin"
+            >
+                <font-awesome-icon
+                    :icon="faLinkedin"
+                    :bounce="isBouncing"
+                    size="3x"
+                    cursor="pointer"
+                />
+            </a>
         </div>
     </header>
 </template>
 
 <script setup>
 import FsNavigation from "@/components/navigation/fs-navigation.vue";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { onMounted, ref } from "vue";
+
+const isBouncing = ref(true);
 
 defineProps({
     items: {
         Object
     },
 });
+
+onMounted(() => {
+    setTimeout(() => {
+        isBouncing.value = false;
+    }, 3000)
+})
 </script>
 
 <style lang="scss">

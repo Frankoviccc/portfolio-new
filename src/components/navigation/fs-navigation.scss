@@ -91,6 +91,10 @@ $class: '.' + $identifier;
             display: none;
             list-style-type: none;
             animation: fadeOut 1s ease;
+
+            &-logo {
+                max-width: 100px;
+            }
         }
 
         &--open {

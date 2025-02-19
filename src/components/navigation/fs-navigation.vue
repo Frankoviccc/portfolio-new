@@ -51,6 +51,20 @@
                         {{ item.text }}
                     </router-link>
                 </li>
+
+                <li class="navigation__mobile-list-item">
+                    <a
+                        href="www.linkedin.com/in/frank-struik-958258203"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            class="navigation__mobile-list-logo"
+                            src="../../assets/linkedin-logo.webp"
+                            alt="LinkedIn logo"
+                        >
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>

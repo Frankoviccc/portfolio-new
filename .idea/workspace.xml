@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added favicon">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="add min-height to prevent resizing">
+      <change afterPath="$PROJECT_DIR$/src/assets/linkedin-logo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logobar/fs-logobar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logobar/fs-logobar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +63,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/scss/variables" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -110,15 +114,8 @@
       <workItem from="1739866225556" duration="4241000" />
       <workItem from="1739870995719" duration="502000" />
       <workItem from="1739871578077" duration="158000" />
-      <workItem from="1739874504273" duration="685000" />
-    </task>
-    <task id="LOCAL-00002" summary="Update">
-      <option name="closed" value="true" />
-      <created>1737549436626</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1737549436626</updated>
+      <workItem from="1739874504273" duration="716000" />
+      <workItem from="1739998308643" duration="2898000" />
     </task>
     <task id="LOCAL-00003" summary="Test">
       <option name="closed" value="true" />
@@ -504,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739871730406</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add min-height to prevent resizing">
+      <option name="closed" value="true" />
+      <created>1739875363279</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1739875363279</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored article collection" />
     <MESSAGE value="implemented mobile styling home page" />
     <MESSAGE value="fix hamburger menu mobile" />
     <MESSAGE value="Fix mobile navigation" />
@@ -577,7 +581,8 @@
     <MESSAGE value="implemented scss variables and refactored styling here and there" />
     <MESSAGE value="Refactored hero counter" />
     <MESSAGE value="Added favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added favicon" />
+    <MESSAGE value="add min-height to prevent resizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add min-height to prevent resizing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
