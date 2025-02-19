@@ -31,7 +31,7 @@
             <FsNavigation :nav-items="items.menu_item"/>
 
             <a
-                href="www.linkedin.com/in/frank-struik-958258203"
+                href="https://www.linkedin.com/in/frank-struik-958258203"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="header__logo-linkedin"
