@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added scroll to top for footer links, removed logs and refactored styling hero articles">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="fixed whitespace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/scroll-to-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/scroll-to-top.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,15 +113,7 @@
       <workItem from="1739874504273" duration="716000" />
       <workItem from="1739998308643" duration="2994000" />
       <workItem from="1740002996340" duration="207000" />
-      <workItem from="1740039912206" duration="4008000" />
-    </task>
-    <task id="LOCAL-00006" summary="Deleted import statement footer">
-      <option name="closed" value="true" />
-      <created>1739019994644</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1739019994644</updated>
+      <workItem from="1740039912206" duration="5003000" />
     </task>
     <task id="LOCAL-00007" summary="changed to kebab-case">
       <option name="closed" value="true" />
@@ -506,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740043426978</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="fixed whitespace">
+      <option name="closed" value="true" />
+      <created>1740044059779</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1740044059780</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
     <MESSAGE value="Refactored logobar" />
     <MESSAGE value="Added functionality to close nav list after click to mobile navigation" />
     <MESSAGE value="Activated the rest of the routing pages" />
@@ -579,7 +579,8 @@
     <MESSAGE value="Added linkedin logo to header" />
     <MESSAGE value="fix href attribute" />
     <MESSAGE value="Added scroll to top for footer links, removed logs and refactored styling hero articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scroll to top for footer links, removed logs and refactored styling hero articles" />
+    <MESSAGE value="fixed whitespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed whitespace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

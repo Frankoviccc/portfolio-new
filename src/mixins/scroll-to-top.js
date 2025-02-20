@@ -1,4 +1,5 @@
 export default () => {
-    console.log('123');
-    document.querySelectorAll('.row')[0].scrollIntoView({ behavior: 'smooth' });
+    setTimeout(() => {
+        document.querySelectorAll('.row')[0].scrollIntoView({ behavior: 'smooth' });
+    }, 50)
 }
