@@ -1,11 +1,11 @@
 <template>
     <FsLogobar
-        :items="logoBarItems"
+        :items="items.logobar"
     />
 
     <div id="wrapper">
         <div class="card-container">
-            <FsCard :items="cardItems" />
+            <FsCard :items="items.card" />
         </div>
         <main class="page">
             <slot />
@@ -13,7 +13,7 @@
     </div>
 
     <FsFooter
-        :footer-items="footerItems.menu_item"
+        :footer-items="items.footer.menu_item"
     />
 </template>
 
@@ -25,12 +25,17 @@ import FsCard from "@/components/card/fs-card.vue";
 
 const story = await useStoryblok('config', { version: 'draft' });
 
+const items = {
+    logobar: 'logobar',
+    card: 'card',
+    footer: 'footer'
+}
 
-const logoBarItems = story.value.content.body[0];
-const cardItems = story.value.content.body[1];
-const footerItems = story.value.content.body[2];
-
-
+story.value.content.body.forEach((item) => {
+    if (items[item.component]) {
+        items[item.component] = item;
+    }
+});
 </script>
 
 <style lang="scss">

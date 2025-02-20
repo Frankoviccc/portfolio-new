@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Give small timeout to scroll to top">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="disable scroll-to-top">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,15 +113,9 @@
       <workItem from="1739874504273" duration="716000" />
       <workItem from="1739998308643" duration="2994000" />
       <workItem from="1740002996340" duration="207000" />
-      <workItem from="1740039912206" duration="5332000" />
-    </task>
-    <task id="LOCAL-00008" summary="fix build error">
-      <option name="closed" value="true" />
-      <created>1739020787038</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1739020787038</updated>
+      <workItem from="1740039912206" duration="5363000" />
+      <workItem from="1740056044495" duration="4197000" />
+      <workItem from="1740076240546" duration="1734000" />
     </task>
     <task id="LOCAL-00009" summary="fix build error">
       <option name="closed" value="true" />
@@ -507,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740044952864</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="disable scroll-to-top">
+      <option name="closed" value="true" />
+      <created>1740045259464</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1740045259464</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added functionality to close nav list after click to mobile navigation" />
     <MESSAGE value="Activated the rest of the routing pages" />
     <MESSAGE value="Implemented footer component" />
     <MESSAGE value="Implemented mobile styling footer" />
@@ -580,7 +581,8 @@
     <MESSAGE value="Added scroll to top for footer links, removed logs and refactored styling hero articles" />
     <MESSAGE value="fixed whitespace" />
     <MESSAGE value="Give small timeout to scroll to top" />
-    <option name="LAST_COMMIT_MESSAGE" value="Give small timeout to scroll to top" />
+    <MESSAGE value="disable scroll-to-top" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable scroll-to-top" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
