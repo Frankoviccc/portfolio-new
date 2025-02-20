@@ -43,15 +43,12 @@
                     </div>
                 </div>
                 <div class="hero__column-articles">
-                    <router-link
+                    <hero-article
                         v-for="(article, index) in articles"
-                        :to="article.link.cached_url"
-                    >
-                        <hero-article
-                            :title="article.title"
-                            :icons="icons[index]"
-                        />
-                    </router-link>
+                        :link="article.link.cached_url"
+                        :title="article.title"
+                        :icons="icons[index]"
+                    />
                 </div>
             </div>
         </div>

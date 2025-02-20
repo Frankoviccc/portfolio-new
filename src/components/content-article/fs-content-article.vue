@@ -33,8 +33,6 @@ const props = defineProps({
         required: true,
     }
 })
-
-console.log(props.blok);
 </script>
 
 <style lang="scss">

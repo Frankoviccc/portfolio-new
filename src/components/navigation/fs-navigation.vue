@@ -74,6 +74,7 @@
 import { ref } from "vue";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
+import ScrollToTop from "@/mixins/scroll-to-top";
 
 const props = defineProps({
     navItems: {
@@ -81,8 +82,6 @@ const props = defineProps({
         required: true
     },
 })
-
-console.log(props.navItems);
 
 const navigationIsOpen = ref(false);
 

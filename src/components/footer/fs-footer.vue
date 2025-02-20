@@ -10,6 +10,7 @@
                     <router-link
                         :to="`/${item.link.cached_url.replace(/^\/+/, '')}`"
                         class="footer-navigation__list-item-link"
+                        @click="ScrollToTop()"
                     >
                         {{ item.text }}
                     </router-link>
@@ -20,6 +21,8 @@
 </template>
 
 <script setup>
+import ScrollToTop from "@/mixins/scroll-to-top";
+
 defineProps({
     footerItems: {
         Object

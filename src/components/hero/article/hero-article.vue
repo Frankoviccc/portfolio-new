@@ -11,9 +11,11 @@
             </h3>
 
             <button class="hero-article__button">
-                <span>
-                    <FontAwesomeIcon :icon="faAnglesRight" />
-                </span>
+                <router-link :to="`/${link}`">
+                    <span>
+                        <FontAwesomeIcon :icon="faAnglesRight" />
+                    </span>
+                </router-link>
             </button>
         </div>
     </article>
@@ -23,13 +25,17 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
-defineProps({
+const props = defineProps({
     title: {
         type: String,
         required: true,
     },
     icons: {
         type: Object,
+        required: true,
+    },
+    link: {
+        type: String,
         required: true,
     }
 })

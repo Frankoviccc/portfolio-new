@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="Added linkedin logo to header">
+    <list default="true" id="8695d0b2-2d7b-40d1-ac1c-258cdbda7725" name="Changes" comment="fix href attribute">
+      <change afterPath="$PROJECT_DIR$/src/mixins/scroll-to-top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content-article/fs-content-article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content-article/fs-content-article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content-header/fs-content.header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content-header/fs-content.header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/fs-footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/article/hero-article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/article/hero-article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/article/hero-article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/article/hero-article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/fs-hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/fs-hero.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/fs-navigation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +68,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mixins" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/scss/variables" />
       <recent name="$PROJECT_DIR$/dist" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -112,15 +121,8 @@
       <workItem from="1739871578077" duration="158000" />
       <workItem from="1739874504273" duration="716000" />
       <workItem from="1739998308643" duration="2994000" />
-      <workItem from="1740002996340" duration="155000" />
-    </task>
-    <task id="LOCAL-00004" summary="Routing, install package">
-      <option name="closed" value="true" />
-      <created>1739019305832</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1739019305833</updated>
+      <workItem from="1740002996340" duration="207000" />
+      <workItem from="1740039912206" duration="3472000" />
     </task>
     <task id="LOCAL-00005" summary="Changed footer name due building fail">
       <option name="closed" value="true" />
@@ -506,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740002736639</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix href attribute">
+      <option name="closed" value="true" />
+      <created>1740003183137</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740003183137</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix hamburger menu mobile" />
     <MESSAGE value="Fix mobile navigation" />
     <MESSAGE value="Swapped svg icons for fontawesome component due rendering on iOS" />
     <MESSAGE value="Refactored logobar" />
@@ -579,7 +588,8 @@
     <MESSAGE value="Added favicon" />
     <MESSAGE value="add min-height to prevent resizing" />
     <MESSAGE value="Added linkedin logo to header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added linkedin logo to header" />
+    <MESSAGE value="fix href attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix href attribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
